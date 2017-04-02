@@ -1,7 +1,7 @@
 {
   "name": "wbs-boilerplate",
   "version": "0.0.1",
-  "description": "A webpack bootstrap-sass boilerplate for fast ",
+  "description": "A webpack bootstrap-sass boilerplate for fast development.",
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server --port 9000",
