@@ -1,4 +1,4 @@
-# wbs-boilerplate - webpack bootstrap sass
+#webpack bootstrap sass boilerplate
 
 A small webpack bootstrap sass boilerplate configuration for fast development.
 
