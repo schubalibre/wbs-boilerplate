@@ -4,6 +4,13 @@ let HtmlWebpackPlugin = require('html-webpack-plugin');
 let ExtractTextPlugin = require('extract-text-webpack-plugin');
 let inProduction = (process.env.NODE_ENV === 'production');
 
+let source = [
+    'src/js/',
+    'test',
+].map(function(file) {
+    return path.resolve(__dirname, '..', file);
+});
+
 module.exports = {
     devtool: 'source-map',
     entry: {
@@ -37,6 +44,8 @@ module.exports = {
             },
             {
                 test: /\.js$/,
+
+                include: source,
 
                 exclude: /node_modules/,
 
